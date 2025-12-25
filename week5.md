@@ -203,6 +203,7 @@ Your video must show:
 
 
 
+
 **7. Summary**
 
 Week 5 implemented advanced security controls and monitoring infrastructure. AppArmor enforced access control, automatic updates ensured timely patching, and Fail2Ban provided intrusion detection. Custom scripts verified security baselines and enabled remote monitoring, strengthening system resilience and visibility.
