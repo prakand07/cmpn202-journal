@@ -1,15 +1,12 @@
-**Week 7 – Security Audit and System Evaluation
-**
+**Week 7 – Security Audit and System Evaluation**
 
 
-**7.1 Objective
-**
+**7.1 Objective**
 
 The objective of Week 7 was to conduct a full security audit of the server, validate security controls implemented in previous weeks, and assess remaining risks.
 
 
-**7.2 Security Audit Tools Used
-**
+**7.2 Security Audit Tools Used**
 
 **Task**
 
@@ -34,8 +31,7 @@ Tool
 
 
 
-**7.3 Lynis Security Scan
-**
+**7.3 Lynis Security Scan**
 
 A Lynis audit was performed using:
 
@@ -136,8 +132,7 @@ Residual risk is considered low, suitable for a small-scale secure server deploy
 
 
 
-**7.8 Overall System Evaluation
-**
+**7.8 Overall System Evaluation**
 
 The system demonstrates: 
 
