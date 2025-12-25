@@ -13,6 +13,21 @@ Phase Title: Security Planning and Testing Methodology
 System: Ubuntu Server 24.04 LTS (VirtualBox)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **1. Introduction**
 
 In Week 2, the focus was on designing a security baseline and a testing methodology for the Ubuntu Server environment installed in Week 1. The goal of this phase is to ensure that the server is protected against common threats while maintaining performance, reliability, and secure remote access.
