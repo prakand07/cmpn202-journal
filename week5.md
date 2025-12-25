@@ -29,6 +29,9 @@ Why AppArmor?
 •	Lightweight and integrated with Ubuntu
 •	Application-level security
 •	Prevents privilege escalation and misuse
+
+ <img width="975" height="935" alt="image" src="https://github.com/user-attachments/assets/f440ba67-fdab-4bc8-b3ec-4b52a8bbf8b9" />
+
  Screenshot evidence: aa-status output
 
 2. Automatic Security Updates
