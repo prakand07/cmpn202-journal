@@ -1,5 +1,6 @@
 **WEEK 5 — Advanced Security and Monitoring Infrastructure**
 
+
 Phase 5: Advanced Security and Monitoring
 Student Name: Prakand
 
@@ -8,6 +9,8 @@ Module: CMPN202
 Server OS: Ubuntu Server 24.04 LTS
 
 Access Method: SSH from workstation
+
+
 
 
 **1. Access Control Implementation (AppArmor)**
