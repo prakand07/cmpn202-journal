@@ -1,22 +1,37 @@
 **CMPN202 – Week 3**
 
 Phase 3: Application Selection for Performance Testing
+
 Student Name: Prakand
+
 Module: CMPN202
+
 Week: 3
+
 Focus: Application Selection & Performance Evaluation Planning
 
-1. Introduction
+
+**1. Introduction**
 The objective of Week 3 is to select appropriate applications that represent different workload types in order to evaluate the performance of the Ubuntu Server 24.04 LTS virtual machine. These applications are chosen to simulate real-world server workloads, including CPU-intensive, memory-intensive, I/O-intensive, network-intensive, and server-oriented services.
+
 All applications will be installed and tested on the Ubuntu Server VM running inside Oracle VirtualBox, accessed remotely via SSH.
 
-2. Application Selection Matrix
-Workload Type	Application	Category	Reason for Selection
-CPU-intensive	stress-ng	Benchmarking Tool	Generates sustained CPU load to test processor performance
-Memory-intensive	stress-ng (vm test)	Benchmarking Tool	Allocates large memory blocks to evaluate RAM usage and swapping
-I/O-intensive	fio	Disk Benchmark Tool	Measures disk read/write throughput and latency
-Network-intensive	iperf3	Network Testing Tool	Tests network bandwidth and packet transfer performance
-Server Application	OpenSSH Server	Remote Access Service	Represents real production server workload
+**2. Application Selection Matrix**
+
+**Workload Type**
+   CPU-intensive
+   Memory-intensive
+   I/O-intensive
+   Network-intensive
+   Server Application
+
+  
+**Application**
+    stress-ng
+    stress-ng (vm test)
+    fio
+    iperf3
+    OpenSSH Server
 
 3. Installation Documentation (SSH-based)
 All installations are performed after logging into the server using SSH:
