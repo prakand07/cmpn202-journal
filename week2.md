@@ -1,10 +1,15 @@
 **Week 2 — Security Planning and Testing Methodology**
 
 Phase 2: Security Planning and Testing Methodology
+
 Student Name: Prakand
+
 Module: CMPN202
+
 Week: 2
+
 Phase Title: Security Planning and Testing Methodology
+
 System: Ubuntu Server 24.04 LTS (VirtualBox)
 
 
