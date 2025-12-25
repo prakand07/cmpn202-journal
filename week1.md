@@ -1,9 +1,11 @@
 **1. Introduction**
+
 The purpose of Week 1 is to plan the system architecture and select an appropriate server operating system for a secure Linux server environment. This phase focuses on understanding the host–guest architecture, virtualization approach, network design, and justifying the choice of Linux distribution.
 The environment is implemented using Oracle VirtualBox on a Windows workstation, hosting an Ubuntu Server 24.04 LTS virtual machine.
 
 
 **2. System Architecture Overview**
+
 The system consists of:
     •	A Windows 10/11 host workstation
     •	Oracle VirtualBox as the virtualization platform
@@ -13,6 +15,7 @@ The host provides hardware resources (CPU, RAM, disk), while the Ubuntu Server V
 
 
 **3. System Architecture Diagram**
+
 The following diagram illustrates the relationship between the workstation, VirtualBox, Ubuntu Server VM, and the network.
 
 <img width="975" height="405" alt="image" src="https://github.com/user-attachments/assets/cda721b4-116a-4db4-995b-9fffc605199d" />
@@ -20,6 +23,7 @@ architecture-diagram.png
 
 
 **4. Distribution Selection and Justification**
+
 Selected Distribution: Ubuntu Server 24.04 LTS
 Reasons for selection:
     •	Long Term Support (LTS) with updates until 2029
@@ -49,6 +53,7 @@ Ubuntu Server provides the best balance between security, stability, and ease of
 
 
 **5. Workstation Configuration Decision**
+
 The workstation is configured as follows:
         •	Operating System: Windows 10/11
         •	Virtualization Software: Oracle VirtualBox
@@ -61,6 +66,7 @@ Justification:
         •	Allows safe experimentation without affecting the host system
 
 **6. Network Configuration (Initial)**
+
         •	Network Mode: NAT
         •	Interface Name: enp0s3
         •	Example IP Address: 10.0.2.15
@@ -72,6 +78,7 @@ Justification:
 NAT was selected for Week 1 to simplify setup and reduce security risks during early stages.
 
 **7. System Specification (CLI Evidence)**
+
 The following Linux commands are used to document system information:
         uname -a
         free -h
