@@ -61,32 +61,32 @@ All applications will be installed and tested on the Ubuntu Server VM running in
 All installations are performed after logging into the server using SSH:
 
       ssh prakand@10.0.2.15
-      <img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/e5bc07c0-01e7-4f9c-a725-d3c900c44efc" />
+<img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/e5bc07c0-01e7-4f9c-a725-d3c900c44efc" />
 
  
 **3.1 Update System Packages**
 
       sudo apt update && sudo apt upgrade –y
-      <img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/8b57d8c0-56f6-4d31-a4e8-cf1a078a40b3" />
+<img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/8b57d8c0-56f6-4d31-a4e8-cf1a078a40b3" />
 
  
 
 **3.2 Install stress-ng (CPU & Memory Testing)**
 
       sudo apt install stress-ng –y
-      <img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/8ef7dc59-77cd-42c4-93df-6f0f697deba3" />
+<img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/8ef7dc59-77cd-42c4-93df-6f0f697deba3" />
 
   
 **3.3 Install fio (Disk I/O Testing)**
 
       sudo apt install fio –y
-      <img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/8a66ddad-a670-4a22-a6c1-ab64b8eda806" />
+<img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/8a66ddad-a670-4a22-a6c1-ab64b8eda806" />
 
  
 **3.4 Install iperf3 (Network Testing)**
 
       sudo apt install iperf3 –y
-      <img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/4c4d7e72-6d8a-477f-9460-3be660fa513a" />
+<img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/4c4d7e72-6d8a-477f-9460-3be660fa513a" />
 
  
 **3.5 Install OpenSSH Server (Server Application)**
@@ -95,7 +95,7 @@ All installations are performed after logging into the server using SSH:
       sudo systemctl enable ssh
       sudo systemctl start ssh
 
-      <img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/31438d26-1c06-4de6-a3f5-5ba14ceb02af" />
+<img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/31438d26-1c06-4de6-a3f5-5ba14ceb02af" />
 
  
 **4. Expected Resource Profiles**
@@ -151,12 +151,12 @@ The following tools and commands will be used to monitor system performance duri
 CPU & Memory Monitoring
 
       htop
-      <img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/b98e6aa1-ac6e-4369-ad50-b570b5c6f823" />
+<img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/b98e6aa1-ac6e-4369-ad50-b570b5c6f823" />
 
 
  
       free –h
-      <img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/54589449-23b2-438c-9cd9-3093176fb97b" />
+<img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/54589449-23b2-438c-9cd9-3093176fb97b" />
 
  
 **Disk Performance**
@@ -164,7 +164,7 @@ CPU & Memory Monitoring
       df -h
       iostat
 
-      <img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/e217eb30-3c24-4b26-9305-61dacafd3c5c" />
+<img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/e217eb30-3c24-4b26-9305-61dacafd3c5c" />
 
  
 **Network Performance**
@@ -172,14 +172,14 @@ CPU & Memory Monitoring
       ip addr
       ss –tuln
 
-      <img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/7cac789c-2dc9-46e4-8f47-9cdeef2ff7ab" />
+<img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/7cac789c-2dc9-46e4-8f47-9cdeef2ff7ab" />
 
  
 **Real-time Logs**
 
       journalctl –xe
       
-      <img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/d8fc5d5e-895c-4010-aac3-5c2a6cf6b03a" />
+<img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/d8fc5d5e-895c-4010-aac3-5c2a6cf6b03a" />
 
 
       
